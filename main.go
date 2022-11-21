@@ -6,7 +6,7 @@ func main() {
 
 	// config.Database()
 
-	controller.CallApi()
+	controller.GetStatus()
 	// router := gin.Default()
 	// router.POST("/createUser", controller.AddUsers)
 	// router.Run(":8080")

@@ -15,7 +15,7 @@ type Token struct {
 	Token string
 }
 
-func CallApi() {
+func GetStatus() {
 
 	err := godotenv.Load(".env")
 	if err != nil {
