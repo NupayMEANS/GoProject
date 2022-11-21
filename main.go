@@ -1,18 +1,14 @@
 package main
 
-import (
-	"goProject/config"
-	"goProject/controller"
-
-	"github.com/gin-gonic/gin"
-)
+import "goProject/controller"
 
 func main() {
 
-	config.Database()
+	// config.Database()
 
-	router := gin.Default()
-	router.POST("/createUser", controller.AddUsers)
-	router.Run(":8080")
+	controller.CallApi()
+	// router := gin.Default()
+	// router.POST("/createUser", controller.AddUsers)
+	// router.Run(":8080")
 
 }
